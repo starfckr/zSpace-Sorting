@@ -14,6 +14,7 @@ How to use it:
 - ZDepthSorting.cs goes on every gameobject that needs sorting.
 - ZDepthSortingSortingVector3Buffer.cs is a ScriptableObject that is used by objects to store their information while in playmode, and restore that information while in the editor.
 - ZDepthSortingObject.cs defines all the default groups and settings.
+- Editorfiles goes in an /editor/ folder in the project
 
 Sprites are stored in a spriteList scriptable object, following a naming convention for level of blur.
 
